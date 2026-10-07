@@ -1,5 +1,12 @@
 <p align="center"><img src="assets/banner.png" alt="itop"></p>
 
+<p align="center">
+  <a href="https://github.com/luxend1337/itop/stargazers"><img src="https://img.shields.io/github/stars/luxend1337/itop?style=flat-square&color=e3b341" alt="stars"></a>
+  <a href="https://github.com/luxend1337/itop/releases"><img src="https://img.shields.io/github/v/release/luxend1337/itop?style=flat-square&color=e3b341" alt="release"></a>
+  <a href="https://github.com/luxend1337/itop/actions/workflows/test.yml"><img src="https://img.shields.io/github/actions/workflow/status/luxend1337/itop/test.yml?style=flat-square&label=build" alt="build"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/luxend1337/itop?style=flat-square" alt="license"></a>
+</p>
+
 A terminal system monitor for Linux servers. It is htop with the stuff I
 kept opening in other panes bolted on: Docker containers, systemd services,
 listening ports and logs, all in one window.
