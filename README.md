@@ -1,12 +1,8 @@
-# itop
+<p align="center"><img src="assets/banner.png" alt="itop"></p>
 
 A terminal system monitor for Linux servers. It is htop with the stuff I
 kept opening in other panes bolted on: Docker containers, systemd services,
 listening ports and logs, all in one window.
-
-```
- 1 Processes  2 Docker  3 Services  4 Ports  5 Logs
-```
 
 - **Processes** with CPU, memory, sorting, filtering and kill
 - **Docker** containers with live CPU/memory, start/stop/restart and logs
@@ -21,6 +17,16 @@ network throughput.
 It reads `/proc` directly, talks to the Docker socket over plain HTTP and
 shells out to `systemctl`/`journalctl`. No agent, no config file, one static
 binary. If Docker or systemd is missing the tab just says so.
+
+![itop processes tab](assets/processes.png)
+
+<details>
+<summary>Ports and services</summary>
+
+![itop ports tab](assets/ports.png)
+![itop services tab](assets/services.png)
+
+</details>
 
 ## Install
 
