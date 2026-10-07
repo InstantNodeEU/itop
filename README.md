@@ -1,10 +1,10 @@
-<p align="center"><img src="assets/banner.png" alt="itop"></p>
+<p align="center"><img src="https://bench.instantnode.eu/oss/itop/banner.png" alt="itop"></p>
 
 <p align="center">
-  <a href="https://github.com/luxend1337/itop/stargazers"><img src="https://img.shields.io/github/stars/luxend1337/itop?style=flat-square&color=e3b341" alt="stars"></a>
-  <a href="https://github.com/luxend1337/itop/releases"><img src="https://img.shields.io/github/v/release/luxend1337/itop?style=flat-square&color=e3b341" alt="release"></a>
-  <a href="https://github.com/luxend1337/itop/actions/workflows/test.yml"><img src="https://img.shields.io/github/actions/workflow/status/luxend1337/itop/test.yml?style=flat-square&label=build" alt="build"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/luxend1337/itop?style=flat-square" alt="license"></a>
+  <img src="https://img.shields.io/badge/license-MIT-e3b341?style=flat-square" alt="license MIT">
+  <img src="https://img.shields.io/badge/written%20in-Go-e3b341?style=flat-square" alt="Go">
+  <img src="https://img.shields.io/badge/platform-linux-e3b341?style=flat-square" alt="linux">
+  <a href="https://instantnode.eu"><img src="https://img.shields.io/badge/by-InstantNode-e3b341?style=flat-square" alt="by InstantNode"></a>
 </p>
 
 A terminal system monitor for Linux servers. It is htop with the stuff I
@@ -25,13 +25,13 @@ It reads `/proc` directly, talks to the Docker socket over plain HTTP and
 shells out to `systemctl`/`journalctl`. No agent, no config file, one static
 binary. If Docker or systemd is missing the tab just says so.
 
-![itop processes tab](assets/processes.png)
+![itop processes tab](https://bench.instantnode.eu/oss/itop/processes.png)
 
 <details>
 <summary>Ports and services</summary>
 
-![itop ports tab](assets/ports.png)
-![itop services tab](assets/services.png)
+![itop ports tab](https://bench.instantnode.eu/oss/itop/ports.png)
+![itop services tab](https://bench.instantnode.eu/oss/itop/services.png)
 
 </details>
 
