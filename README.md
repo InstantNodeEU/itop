@@ -1,9 +1,10 @@
-<p align="center"><img src="https://bench.instantnode.eu/oss/itop/banner.png" alt="itop"></p>
+<p align="center"><img src="assets/banner.png" alt="itop"></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-e3b341?style=flat-square" alt="license MIT">
   <img src="https://img.shields.io/badge/written%20in-Go-e3b341?style=flat-square" alt="Go">
-  <img src="https://img.shields.io/badge/platform-linux-e3b341?style=flat-square" alt="linux">
+  <a href="https://github.com/instantnodeeu/itop/releases"><img src="https://img.shields.io/github/v/release/instantnodeeu/itop?style=flat-square&color=e3b341" alt="release"></a>
+  <a href="https://github.com/instantnodeeu/itop/stargazers"><img src="https://img.shields.io/github/stars/instantnodeeu/itop?style=flat-square&color=e3b341" alt="stars"></a>
   <a href="https://instantnode.eu"><img src="https://img.shields.io/badge/by-InstantNode-e3b341?style=flat-square" alt="by InstantNode"></a>
 </p>
 
@@ -25,13 +26,13 @@ It reads `/proc` directly, talks to the Docker socket over plain HTTP and
 shells out to `systemctl`/`journalctl`. No agent, no config file, one static
 binary. If Docker or systemd is missing the tab just says so.
 
-![itop processes tab](https://bench.instantnode.eu/oss/itop/processes.png)
+![itop processes tab](assets/processes.png)
 
 <details>
 <summary>Ports and services</summary>
 
-![itop ports tab](https://bench.instantnode.eu/oss/itop/ports.png)
-![itop services tab](https://bench.instantnode.eu/oss/itop/services.png)
+![itop ports tab](assets/ports.png)
+![itop services tab](assets/services.png)
 
 </details>
 
