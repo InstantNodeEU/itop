@@ -5,6 +5,7 @@
   <img src="https://img.shields.io/badge/written%20in-Go-e3b341?style=flat-square" alt="Go">
   <a href="https://github.com/instantnodeeu/itop/releases"><img src="https://img.shields.io/github/v/release/instantnodeeu/itop?style=flat-square&color=e3b341" alt="release"></a>
   <a href="https://github.com/instantnodeeu/itop/stargazers"><img src="https://img.shields.io/github/stars/instantnodeeu/itop?style=flat-square&color=e3b341" alt="stars"></a>
+  <a href="https://github.com/instantnodeeu/itop/actions"><img src="https://img.shields.io/github/actions/workflow/status/instantnodeeu/itop/test.yml?style=flat-square&label=build&color=e3b341" alt="build"></a>
   <a href="https://instantnode.eu"><img src="https://img.shields.io/badge/by-InstantNode-e3b341?style=flat-square" alt="by InstantNode"></a>
 </p>
 
