@@ -40,7 +40,6 @@ func TestRenderTabs(t *testing.T) {
 		time.Sleep(50 * time.Millisecond)
 
 		text := screenText(screen)
-		t.Log("\n" + text)
 		if !strings.Contains(text, "Mem") || !strings.Contains(text, a.panels[i].title()) {
 			t.Errorf("tab %d: header or tab bar missing:\n%s", i, text)
 		}
