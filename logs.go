@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/gdamore/tcell/v2"
-	"github.com/instantnode/itop/internal/docker"
-	"github.com/instantnode/itop/internal/systemd"
+	"github.com/instantnodeeu/itop/internal/docker"
+	"github.com/instantnodeeu/itop/internal/systemd"
 	"github.com/rivo/tview"
 )
 

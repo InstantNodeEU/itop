@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/instantnode/itop/internal/sys"
+	"github.com/instantnodeeu/itop/internal/sys"
 	"github.com/rivo/tview"
 )
 

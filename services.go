@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/gdamore/tcell/v2"
-	"github.com/instantnode/itop/internal/systemd"
+	"github.com/instantnodeeu/itop/internal/systemd"
 )
 
 type servicesPanel struct {

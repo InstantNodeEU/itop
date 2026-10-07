@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/gdamore/tcell/v2"
-	"github.com/instantnode/itop/internal/sys"
+	"github.com/instantnodeeu/itop/internal/sys"
 )
 
 type portsPanel struct {

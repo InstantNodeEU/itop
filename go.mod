@@ -1,4 +1,4 @@
-module github.com/instantnode/itop
+module github.com/instantnodeeu/itop
 
 go 1.24.0
 

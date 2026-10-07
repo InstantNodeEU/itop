@@ -38,7 +38,7 @@ binary. If Docker or systemd is missing the tab just says so.
 ## Install
 
 ```sh
-curl -Lo itop https://github.com/instantnode/itop/releases/latest/download/itop-linux-$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/')
+curl -Lo itop https://github.com/instantnodeeu/itop/releases/latest/download/itop-linux-$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/')
 chmod +x itop
 sudo mv itop /usr/local/bin/
 ```
@@ -46,7 +46,7 @@ sudo mv itop /usr/local/bin/
 Or with Go 1.24+:
 
 ```sh
-go install github.com/instantnode/itop@latest
+go install github.com/instantnodeeu/itop@latest
 ```
 
 ## Usage

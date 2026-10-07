@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/gdamore/tcell/v2"
-	"github.com/instantnode/itop/internal/docker"
+	"github.com/instantnodeeu/itop/internal/docker"
 )
 
 type containersPanel struct {

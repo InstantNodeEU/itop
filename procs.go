@@ -8,7 +8,7 @@ import (
 	"syscall"
 
 	"github.com/gdamore/tcell/v2"
-	"github.com/instantnode/itop/internal/sys"
+	"github.com/instantnodeeu/itop/internal/sys"
 )
 
 type procRow struct {
