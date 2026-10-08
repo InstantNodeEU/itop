@@ -40,10 +40,13 @@ binary. If Docker or systemd is missing the tab just says so.
 ## Install
 
 ```sh
-curl -Lo itop https://github.com/instantnodeeu/itop/releases/latest/download/itop-linux-$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/')
-chmod +x itop
-sudo mv itop /usr/local/bin/
+curl -fsSL https://raw.githubusercontent.com/instantnodeeu/itop/main/install.sh | sudo sh
 ```
+
+This puts the latest release in `/usr/local/bin` after checking its sha256. Without
+`sudo` it goes to `~/.local/bin`. Run the same line again to update,
+`VERSION=v0.1.0` pins a release, `BINDIR` picks another directory. The binaries
+are also on the [releases](https://github.com/instantnodeeu/itop/releases) page.
 
 Or with Go 1.24+:
 
